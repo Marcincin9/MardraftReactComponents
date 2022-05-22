@@ -1,0 +1,45 @@
+.card {
+  background-color: rgb(241, 241, 241);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+}
+.card-verti {
+  width: 18rem;
+}
+
+.card-horiz {
+  width: 29rem;
+}
+
+.card-square {
+  width: 22.35rem;
+}
+
+.card-img {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  height: 150px;
+}
+
+.card-content {
+  padding: 1.25rem;
+  line-height: 1.5;
+}
+
+.card-head {
+  font-size: 22px;
+  margin: 0px;
+}
+
+.card-txt {
+  font-size: 15px;
+}

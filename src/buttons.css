@@ -1,0 +1,48 @@
+.button {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 10px;
+}
+.button-green {
+  background-color: green;
+  border-color: green;
+  color: #ffffff;
+}
+
+.button-green:hover {
+  background-color: rgb(1, 153, 1);
+  border-color: rgb(1, 153, 1);
+}
+
+.button-blue {
+  background-color: rgb(24, 83, 194);
+  border-color: rgb(24, 83, 194);
+  color: #ffffff;
+}
+
+.button-blue:hover {
+  background-color: rgb(44, 104, 214);
+  border-color: rgb(44, 104, 214);
+}
+
+.button-yellow {
+  background-color: rgb(206, 185, 1);
+  border-color: rgb(206, 185, 1);
+  color: #ffffff;
+}
+
+.button-yellow:hover {
+  background-color: rgb(201, 204, 39);
+  border-color: rgb(201, 204, 39);
+}
